@@ -66,7 +66,7 @@ uploadTask.on('state_changed',
 
     file && upload();
   }, [file]);
-
+ 
 
   if (status === "loading") {
     return ( <div className={styles.loading}>Loading...</div> )
