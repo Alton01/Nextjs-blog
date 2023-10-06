@@ -16,7 +16,7 @@ import { app } from '@/utils/firebase';
 const storage = getStorage(app);
 
 
-const writePage = () => {
+const WritePage = () => {
 
   const {status} = useSession();
 
@@ -143,4 +143,4 @@ uploadTask.on('state_changed',
   )
 }
 
-export default writePage;
+export default WritePage;
